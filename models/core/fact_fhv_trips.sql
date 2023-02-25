@@ -17,6 +17,9 @@ select
     pickup_zone.zone as pickup_zone, 
     
     fhv_data.PUlocationID as pickup_locationid,
+
+    fhv_data.pickup_datetime as pickup_datetime,
+    fhv_data.dropOff_datetime as dropOff_datetime,
     
     dropoff_zone.borough as dropoff_borough, 
     dropoff_zone.zone as dropoff_zone,
